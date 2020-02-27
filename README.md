@@ -6,6 +6,7 @@
 - The entry point for program testing is TestController, and the API is `v1/run`
 - When you call at `http://localhost:8080/v1/run`, You will see the following log:
     ````
+    ====Start task====subProcess0-serviceTask1
     ====Start task====subProcess0-serviceTask2
     ====Complete task=====subProcess0-serviceTask1
     ====Complete task=====subProcess0-serviceTask2
