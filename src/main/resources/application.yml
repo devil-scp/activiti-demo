@@ -20,5 +20,8 @@ spring:
     database-schema-update: true
     history-level: full
     db-history-used: true
-    check-process-definitions: false
     async-executor-activate: true
+project:
+  manifest:
+    file:
+      path: classpath:/default-project.json
