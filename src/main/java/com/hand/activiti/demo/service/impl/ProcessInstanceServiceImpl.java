@@ -47,28 +47,6 @@ public class ProcessInstanceServiceImpl implements ProcessInstanceService {
     private Logger logger = LoggerFactory.getLogger(ProcessInstanceServiceImpl.class);
 
 
-//    @Override
-//    public void runDevopsPipeline() {
-//        login();
-//        String name = "Hello World Activiti";
-//        Deployment deployment = repositoryService
-//                .createDeployment()
-//                .name(name)
-//                .addClasspathResource("processes/diagram.bpmn20.xml")
-//                .deploy();
-//
-//        org.activiti.engine.repository.ProcessDefinition processDefinition = repositoryService.createProcessDefinitionQuery()
-//                .deploymentId(deployment.getId()).singleResult();
-//
-//        String key = UUID.randomUUID().toString();
-//        processRuntime.start(ProcessPayloadBuilder
-//                .start()
-//                .withProcessDefinitionKey(processDefinition.getKey())
-//                .withName(name)
-//                .withBusinessKey(key)
-//                .build());
-//    }
-
     @Override
     public void runDevopsPipeline() {
         login();
